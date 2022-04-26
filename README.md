@@ -1,2 +1,2 @@
-# Matt Downey's Personal Projects
-This is a repository housing the personal coding projects for Matt Downey.
+# Matt Downey's Personal Coding Portfolio
+This is a repository housing the personal coding portfolio for Matt Downey.
