@@ -1,7 +1,7 @@
 /* GENERIC STYLING */
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -18,7 +18,11 @@ h2 {
     margin: 0 auto;
 }
 
-
+p {
+    text-align: center;
+    width: 50%;
+    margin: 1em auto;
+}
 
 /* NAVIGATION BAR STYLING */
 nav {
@@ -30,11 +34,8 @@ ul {
     padding: 0;
 }
 
-li {
+.nav-link {
     display: inline-block;
-}
-
-nav li {
     width: 19%; 
 }
 
@@ -82,11 +83,35 @@ footer img {
     height: 10em;
     border-radius: 3em;
     border: 0.5em solid black;
+    margin: 1em;
 }
 
+.biography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* RESUME SPECIFIC STYLING */
+.resume-container {
+    display: flex;
+}
 
+.resume-header {
+    background-color: rgb(83,87,94);
+    color: rgb(221,227,237);
+}
+
+.left-side-panel {
+    width: 25%;
+    background-color: lightgray;
+}
+
+.right-side-panel {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
 
 
 /* PROJECTS SPECIFIC STYLING */
