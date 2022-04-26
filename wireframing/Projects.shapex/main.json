@@ -1,0 +1,69 @@
+{
+  "shapes" : [
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 150}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 30}\",\n  \"identifier\" : \"7CBD5636-3068-4718-9F06-0E5121CDDABD\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Project 1 Description\",\n  \"privateStyle\" : {\n    \"font\" : \"Helvetica,14.0\",\n    \"textAlignment\" : 2,\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 70}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 80}\",\n  \"identifier\" : \"3572677C-822F-4AF8-8FB8-9BFD61EA1884\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"PROJECTS\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 20}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 50}\",\n  \"identifier\" : \"E35B0BB2-F674-4F23-A343-7633A1E0D202\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"HOME\\t\\tBIO\\t\\tRESUME\\tPROJECTS\\t\\t\\tLINKS\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 750}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 120}\",\n  \"identifier\" : \"19C56CCB-DE67-4BD1-A7FB-6B8DB7582343\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Footer with contact info\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 350}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 30}\",\n  \"identifier\" : \"B09543A2-9B87-492D-81A2-C8BDE7261F04\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Project 2 Description\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 550}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 30}\",\n  \"identifier\" : \"52C2D630-BECB-4961-91E9-C609E5432489\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"Project 3 Description\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 180}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 170}\",\n  \"identifier\" : \"874E8A0B-6982-44DA-8E82-E617D7965715\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"PROJECT #1\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 380}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 170}\",\n  \"identifier\" : \"DFBA46C6-8DC0-4B8C-85B4-1B94F27670AB\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"PROJECT #2\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    },
+    {
+      "class" : "dia-node",
+      "attrs" : "{\n  \"lockAspectRatio\" : false,\n  \"shape\" : \"rect\",\n  \"position\" : \"{20, 580}\",\n  \"angle\" : 0,\n  \"size\" : \"{780, 170}\",\n  \"identifier\" : \"2470A84E-0410-4DF5-857F-E3BBFA6F4106\",\n  \"tag\" : 0,\n  \"connectable\" : true,\n  \"isLocked\" : false,\n  \"visible\" : true,\n  \"isTemplate\" : false,\n  \"themeStyle\" : \"variant_4\",\n  \"value\" : \"PROJECT #3\",\n  \"privateStyle\" : {\n    \"textAlignment\" : 2,\n    \"font\" : \"Helvetica,14.0\",\n    \"textColor\" : \"#000000FF\"\n  },\n  \"isRelative\" : false\n}"
+    }
+  ],
+  "frame" : [
+    [
+      0,
+      0
+    ],
+    [
+      827,
+      1169
+    ]
+  ],
+  "terminals" : {
+
+  },
+  "design" : {
+    "connectorPathStyle" : "rounded",
+    "themeName" : "no",
+    "paper" : {
+      "rightMargin" : 20,
+      "bottomMargin" : 20,
+      "topMargin" : 20,
+      "name" : "a4",
+      "leftMargin" : 20,
+      "ori" : true
+    },
+    "autoFrame" : true,
+    "showPageMarker" : true
+  },
+  "showsGrids" : true,
+  "version" : "100"
+}
