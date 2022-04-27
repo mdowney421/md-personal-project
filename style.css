@@ -70,6 +70,31 @@ a:hover {
 
 
 
+/* LINKS SUBMENU STYLING */
+.links-submenu {
+    padding: 0;
+    position: fixed;
+    right: 6%;
+    top: 5em;
+    /* transform: translate(-50%, 0); */
+}
+
+.links-submenu-ul {
+    display: none;
+    margin: 1em; 
+}
+  
+.links-submenu-ul.visible {
+     display: flex;
+     flex-direction: column;
+}
+
+.links-submenu-ul li {
+    width: 100%;
+}
+
+
+
 /* FOOTER STYLING */
 footer {
     background-color: #373737;
