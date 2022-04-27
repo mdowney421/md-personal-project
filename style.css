@@ -1,7 +1,6 @@
 /* GENERIC STYLING */
 * {
     box-sizing: border-box;
-    /* border: 1px solid red; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -23,6 +22,8 @@ h2 {
     width: 50%;
     margin: 0 auto;
 }
+
+
 
 /* NAVIGATION BAR STYLING */
 nav {
@@ -122,6 +123,7 @@ footer a {
 .first-intro-message {
     opacity: 0;
     margin-top: 2em;
+    margin-top: 1em;
 }
 
 .second-intro-message {
@@ -146,7 +148,7 @@ footer a {
 .image-of-me img {
     height: 10em;
     border-radius: 3em;
-    border: 0.5em solid #2D2D2D;
+    border: 0.25em solid #2D2D2D;
     margin: 1em;
 }
 
@@ -162,16 +164,27 @@ footer a {
     margin: 1em auto;
 }
 
+@media only screen and (max-width: 600px) {
+    .biography-text {
+        width: 75%;
+    }
+}
+
 
 
 /* RESUME SPECIFIC STYLING */
 .resume-header {
-    background-color: rgb(83,87,94);
-    color: rgb(221,227,237);
+    background-color: rgb(105, 129, 170);
+    color: #FFFFFF;
 }
 
 .resume-h1 {
     margin-top: auto;
+    padding-top: 1em;
+}
+
+.resume-h2 {
+    padding-bottom: 1em;
 }
 
 .resume-container {
@@ -192,6 +205,13 @@ footer a {
 
 .contact-info {
     text-align: right;
+}
+
+.left-side-panel a {
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    padding: 0;
 }
 
 .skills-li {
@@ -241,4 +261,33 @@ footer a {
 }
 
 
+
 /* PROJECTS SPECIFIC STYLING */
+.project-title {
+    margin-top: 3em;
+}
+
+.project-link {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 4em;
+}
+
+.project-image {
+    border-radius: 3em;
+    border: 0.25em solid #2D2D2D;
+    width: 100%;
+}
+
+.project-description {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#toh-image {
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1em;
+}
+
+h2 {
+    width: 75%;
+    margin: 1em auto;
+}
+
+h3 {
+    padding: 2em 0;
+}
+
+#background-section {
+    background-image: url("https://s3.envato.com/files/156884535/Game_Background_Emerald_Lake_4270x2135.jpg");
+    background-position: center;
+    background-size: 150% auto;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 25em;
+}
+
+.game-container {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    padding: 2em 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    height: 8em;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+.tower {
+    width: 33%;
+}
+
+.disk {
+    height: 2em;
+}
+
+#disk-one {
+    background-color: red;
+    width: 25%;
+}
+
+#disk-two {
+    background-color: green;
+    width: 45%;
+}
+
+#disk-three {
+    background-color: orange;
+    width: 65%;
+}
+
+#disk-four {
+    background-color: blue;
+    width: 85%;
+}
+
+button {
+    border-radius: 0.5em;
+    padding: 0.25em;
+}
+
+button:hover {
+    background-color: lightcoral;
+}
+
+#reset-game {
+    margin: 2em;
+
+}
+
+@media (max-width: 900px) {
+    #background-section {
+        background-size: cover;
+    }
+}

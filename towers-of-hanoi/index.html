@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Towers of Hanoi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <section id="background-section">
+        <h1>Welcome to Towers of Hanoi</h1>
+        <h2>The objective of the game is to move all of the disks from the left tower to the right tower. You can only move one disk at a time and you cannot put a bigger disk onto a smaller disk.</h2>
+        <div class="game-container">
+            <div class="tower" id="left-tower">
+                <ul class="tower-ul" id="left-tower-ul">
+                    <li class="disk" id="disk-one"></li>
+                    <li class="disk" id="disk-two"></li>
+                    <li class="disk" id="disk-three"></li>
+                    <li class="disk" id="disk-four"></li>
+                </ul>
+                <button id="lt-to-mt">Middle Tower</button>
+                <button id="lt-to-rt">Right Tower</button>
+            </div>
+            <div class="tower" id="middle-tower">
+                <ul class="tower-ul" id="middle-tower-ul">
+                </ul>
+                <button id="mt-to-lt">Left Tower</button>
+                <button id="mt-to-rt">Right Tower</button>
+            </div>
+            <div class="tower" id="right-tower">
+                <ul class="tower-ul" id="right-tower-ul">
+                </ul>
+                <button id="rt-to-lt">Left Tower</button>
+                <button id="rt-to-mt">Middle Tower</button>
+            </div>
+        </div>
+        <h3 id="move-counter">Move Count: 0</h3>
+        <button id="reset-game">Reset Game</button>
+    </section>
+</body>
+</html>
