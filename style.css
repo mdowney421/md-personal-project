@@ -7,8 +7,8 @@
 
 body {
     margin: 0;
-    color: #3B628A;
-    background-color: lightgray;
+    color: #2D2D2D;
+    background-color: #FFFFFF;
     min-height: 400px;
     margin-bottom: 100px;
     clear: both;
@@ -26,7 +26,7 @@ h2 {
 
 /* NAVIGATION BAR STYLING */
 nav {
-    background-color: #3B628A;
+    background-color: #373737;
     text-align: center;
     padding: 1.5em 0;
 }
@@ -44,20 +44,34 @@ a {
     text-decoration: none;
     color: white;
     padding: 1em 0;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     border-radius: 1em;
 }
 
 a:hover {
-    background-color: rgba(255,255,255,0.75);
-    color: #3B628A;
+    background-color: #C2A756;
+    color: #2D2D2D;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-link {
+        width: 18%;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-link {
+        width: 18%;
+        font-size: 60%;
+    }
 }
 
 
 
 /* FOOTER STYLING */
 footer {
-    background-color: #3B628A;
+    background-color: #373737;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -69,7 +83,7 @@ footer {
 }
 
 .footer-text {
-    color: #92ADC8;
+    color: #FFFFFF;
 }
 
 footer img {
@@ -83,6 +97,12 @@ footer li {
 footer a {
     border: none;
     padding: 1em;
+}
+
+@media only screen and (max-width: 400px) {
+    .footer-text {
+        font-size: 75%;
+    }    
 }
 
 
@@ -101,10 +121,12 @@ footer a {
 
 .first-intro-message {
     opacity: 0;
+    margin-top: 2em;
 }
 
 .second-intro-message {
     opacity: 0;
+    margin-top: 2em;
 }
 
 .welcome-message-h2 {
@@ -124,7 +146,7 @@ footer a {
 .image-of-me img {
     height: 10em;
     border-radius: 3em;
-    border: 0.5em solid #3B628A;
+    border: 0.5em solid #2D2D2D;
     margin: 1em;
 }
 
@@ -199,6 +221,24 @@ footer a {
     padding: 1em;
 }
 
+@media only screen and (max-width: 700px) {
+    .resume-h1 {
+        font-size: 1.5em;
+    }
+    .resume-h2 {
+        font-size: 1em;
+    }
+    .resume-h5 {
+        font-size: 0.6em;
+    }
+    .resume-container p,
+    .resume-container li {
+        font-size: 0.6em;
+    }
+    .job-description-ul {
+        margin-left: 2em;
+    }
+}
 
 
 /* PROJECTS SPECIFIC STYLING */
