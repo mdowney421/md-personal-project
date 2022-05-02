@@ -4,6 +4,7 @@ $(() => {
         $('.links-submenu-ul').toggleClass('visible')
     })
 
+
     // FUNCTION FOR ANIMATING PICTURE OF ME
     $('.image-of-me img').on('mouseover', () => {
         $('.image-of-me img').css('height', '18em')
@@ -12,6 +13,17 @@ $(() => {
     $('.image-of-me img').on('mouseout', () => {
         $('.image-of-me img').css('height', '10em')
     })
+
+
+    // MODAL FUNCTIONALITY
+    $('#open-contact').on('click', () => {
+        $('#contact-me').css('display', 'flex')
+    })
+
+    $('#close-contact').on('click', () => {
+        $('#contact-me').css('display', 'none')
+    })
+
 
     // FUNCTIONS FOR HOME PAGE ANIMATIONS
     $(document).ready(function() { 

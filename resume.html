@@ -16,7 +16,13 @@
             <a href="biography.html"><li class="nav-link">BIO</li></a>
             <a href="#"><li class="nav-link">RESUME</li></a>
             <a href="projects.html"><li class="nav-link">PROJECTS</li></a>
-            <a href="#"><li class="nav-link">LINKS</li></a>
+            <a href="#" id="links-submenu-link"><li class="nav-link">LINKS</li></a>
+            <nav class="links-submenu">
+                <ul class="links-submenu-ul">
+                    <a href="https://www.linkedin.com/in/matthew-downey-80992645/" target="_blank"><li class="nav-link">Matt's LinkedIn</li></a>
+                    <a href="https://github.com/mdowney421/personal-portfolio" target="_blank"><li class="nav-link">Matt's GitHub</li></a>
+                </ul>
+            </nav>
         </ul>
     </nav>
     <div class="resume-header">
@@ -79,11 +85,26 @@
                     <li class="job-description">Traveled to customer locations for manufacturing feasibility reviews and lunch & learns to educate current and potential customers on powdered metal manufacturing process</li>
                 </ul>
             </div>
-            <div class="projects-box">
-                <h5 class="resume-h5">CODING PROJECTS</h5>
-            </div>
         </div>
     </section>
+    <div class="contact-button-div">
+        <button class="contact-button" id="open-contact">CONTACT ME</button>
+    </div>
+    <div id="contact-me">
+        <h2>Contact Me!</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <label for="name">Comment:</label>
+            <input type="text" id="comment" name="comment"><br>
+            <div class="submit-button-div">
+                <input type="submit" value="SUBMIT" class="contact-button" id="submit-button">
+            </div>
+        </form>
+        <button class="contact-button" id="close-contact">CLOSE</button>
+    </div>
     <footer>
         <p class="footer-text">Designed and built by Matt Downey</p>
         <a href="https://www.linkedin.com/in/matthew-downey-80992645/" target="_blank"><li class="footer-link"><img src="./media/linkedin-square-logo.png" alt="image of linked in logo"></li></a>

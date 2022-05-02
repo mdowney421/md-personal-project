@@ -287,6 +287,57 @@ footer a {
 
 
 
+/* CONTACT ME MODAL */
+#contact-me {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 129, 170);
+    color: #FFFFFF;
+    border: 0.5em solid black;
+    border-radius: 2em;
+    position: fixed;
+    left: calc(50% - 10em);
+    top: calc(50% - 10em);
+    width: 20em;
+    height: 20em;
+}
+
+input {
+    margin-top: 1em;
+}
+
+.contact-button {
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+#open-contact {
+    border: 1px solid #2D2D2D;
+}
+
+.contact-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button:hover {
+    background-color: #C2A756;
+    color: #FFFFFF;
+}
+
+.submit-button-div {
+    text-align: center;
+}
+
+
+
 /* PROJECTS SPECIFIC STYLING */
 .project-title {
     margin-top: 3em;
