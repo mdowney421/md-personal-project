@@ -1,6 +1,6 @@
 # Matt Downey's Portfolio Project
 
-## Please note that this is not my official portfolio. That can be found [here](https://github.com/mdowney421/official-portfolio).
+## Please note that this is NOT my official portfolio. That can be found [here](https://github.com/mdowney421/official-portfolio).
 
 ## Overview
 * Home page: Welcome message and introduction about who I am. The welcome message uses jQuery to animate upon the page loading.
