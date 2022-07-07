@@ -1,4 +1,4 @@
-# Matt Downey's Portfolio Project
+# Unit 1 Portfolio Project
 
 ## Please note that this is NOT my official portfolio. That can be found [here](https://github.com/mdowney421/official-portfolio).
 
